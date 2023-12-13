@@ -1,0 +1,38 @@
+body {
+    font-family: verdana;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    background: #f8f8f8;
+    width: 350px;
+    height: 525px;
+    padding: 15px;
+}
+
+.name-age{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.name-age span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.age {
+    color: #f47b62;
+}
+
+#card img {
+    width: 350px;
+}
+
+#card h2 {
+    font-size: 15px;
+    color: #bdbdbd;
+}
